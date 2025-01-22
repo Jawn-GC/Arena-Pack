@@ -1,0 +1,109 @@
+\-size                                   2 2        // level size in rooms
+
+\?floor%50                         2
+\?floor_hard%50%floor              Y
+\?adjacent_floor                   Z
+\?door2                            D
+\?locked_door                      /
+\?stone_floor                      +
+\?tomb_floor                       G
+\?cursed_pot                       u
+\?treasure                         t
+\?litwalltorch                     O
+\?haunted_corpse                   7
+\?altar                            x
+\?vault_wall                       |
+\?shop_sign                        K
+\?shop_door                        k
+\?lamp_hang                        l
+\?shop_wall                        .
+\?shop_wall%50                     ;
+\?shop_woodwall                    :
+\?wanted_poster                    W
+\?shopkeeper                       $
+\?die                              %
+\?merchant                         #
+\?cavemanshopkeeper                &
+\?sleeping_hiredhand               \
+\?forcefield                       ?
+\?forcefield_top                   '
+\?thief                            J
+\?empty                            0
+\?floor                            1
+\?floor_hard                       X
+\?ladder                           L
+\?ladder_plat                      P
+\?bone_block                       f
+\?pagoda_floor                     =
+\?pagoda_floor%50                  -
+\?pagoda_platform                  p
+\?climbing_pole                    V
+\?spikes                           ^
+\?giantclam                        C
+\?fountain_drain                   *
+\?slidingwall_switch               a
+\?slidingwall_ceiling              A
+\?water                            w
+\?push_block                       4
+\?crate                            R
+\?dm_spawn_point                   S
+
+
+
+////////////////////////////////////////////////////////////////////////////////
+\.setroom0-0
+////////////////////////////////////////////////////////////////////////////////
+
+// room
+==========
+=00000000=
+=0p=====p=
+=p00000000
+=Sp00V0000
+====0V0===
+=0l00V0p00
+=0000V00^^
+
+////////////////////////////////////////////////////////////////////////////////
+\.setroom0-1
+////////////////////////////////////////////////////////////////////////////////
+
+// room
+\!onlyflip
+==========
+=00000000=
+=0p=====p=
+=p00000000
+=Sp00V0000
+====0V0===
+=0l00V0p00
+=0000V00^^
+
+////////////////////////////////////////////////////////////////////////////////
+\.setroom1-0
+////////////////////////////////////////////////////////////////////////////////
+
+// room
+=0000V0S11
+=C00111111
+XXXXXXXXXX
+XXXXXXXXXX
+XXXXXXXXXX
+XXXXXXXXXX
+XXXXXXXXXX
+XXXXXXXXXX
+
+////////////////////////////////////////////////////////////////////////////////
+\.setroom1-1
+////////////////////////////////////////////////////////////////////////////////
+
+// room
+\!onlyflip
+=0000V0S11
+=C00111111
+XXXXXXXXXX
+XXXXXXXXXX
+XXXXXXXXXX
+XXXXXXXXXX
+XXXXXXXXXX
+XXXXXXXXXX
